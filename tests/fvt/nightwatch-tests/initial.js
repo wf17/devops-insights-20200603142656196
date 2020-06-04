@@ -17,7 +17,7 @@ module.exports = {
         await demodoi.navigate().waitForElementVisible('@inputText');
 
         await demodoi.setValue('@inputText', [
-            '78641',
+            'Hamilton',
             browser.Keys.ENTER
           ]);
     
@@ -32,7 +32,7 @@ module.exports = {
         await demodoi.navigate().waitForElementVisible('@inputText');
 
         await demodoi.setValue('@inputText', [
-            '90000',
+            'Hamilton',
             browser.Keys.ENTER
           ]);
     
@@ -47,7 +47,7 @@ module.exports = {
         await demodoi.navigate().waitForElementVisible('@inputText');
 
         await demodoi.setValue('@inputText', [
-            'ABCDE',
+            '123456',
             browser.Keys.ENTER
           ]);
     

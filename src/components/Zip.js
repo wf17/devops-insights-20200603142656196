@@ -5,7 +5,7 @@ function Zip(props) {
     const [validationError, setValidationError] = useState(null);
 
     const validate = (event) => {
-        const zipCodePattern = /^[a-z A-Z]$/;
+        const zipCodePattern = /^[a-zA-Z]+(?:[\s-][a-zA-Z]+)*$/;
         const valid = zipCodePattern.test(event.target.value);
         if (!valid) {
             setValidationError('* should be letter only');
